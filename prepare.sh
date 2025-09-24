@@ -1,2 +1,3 @@
 git submodule update --init --recursive
 sudo apt update && sudo apt -y install build-essential cmake git libpipewire-0.3-dev libwayland-dev libsdl2-dev ruby-dev libcurl4-openssl-dev libglvnd-dev libglu1-mesa-dev freeglut3-dev emscripten
+echo "Dont forget to set FROZEN_CACHE = False in /usr/share/emscripten/.emscripten"
